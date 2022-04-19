@@ -1,0 +1,47 @@
+html {
+    font-family: 'Hind Guntur', sans-serif;
+    font-size: 12pt;
+    color: rgb(49, 50, 52);
+    letter-spacing: 2px;
+    background-color: rgba(41, 101, 185, 0.491);
+    background: no-repeat url(images/MissouriKatyTrail_wide.png);
+}
+html * {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: 'Rubik Moonrocks', Impact, Haettenschweiler, sans-serif;
+    font-size: 70pt;
+    
+}
+h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+nav {
+    width: 100%;
+    background-color: dimgray;
+    text-align: left;
+}
+nav ul {
+    vertical-align: middle;
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav a, nav a:focus, nav a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+/* HOME start */
+#home article{
+    text-align: center;
+}
+/* HOME end */
